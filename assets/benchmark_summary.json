@@ -1,0 +1,53 @@
+{
+  "author": "José Alejandro Bernal Figueroa",
+  "project": "Digits - Reconocimiento Óptico de Dígitos Manuscritos",
+  "career": "Ingeniería de Sistemas",
+  "dataset": "UCI Optical Recognition of Handwritten Digits (8x8)",
+  "total_samples": 1797,
+  "features": 64,
+  "test_samples": 360,
+  "best_model": "SVM (RBF)",
+  "best_accuracy": 0.9888888888888889,
+  "models_evaluated": [
+    {
+      "name": "SVM (RBF)",
+      "test_accuracy": 0.9888888888888889,
+      "cv_accuracy_mean": 0.9881750871080139,
+      "cv_accuracy_std": 0.0035286644359246353,
+      "train_time_sec": 0.17489027976989746,
+      "inference_time_ms": 0.045828024546305336
+    },
+    {
+      "name": "MLP (Red Neuronal)",
+      "test_accuracy": 0.9833333333333333,
+      "cv_accuracy_mean": 0.9721689895470383,
+      "cv_accuracy_std": 0.0058016410989868705,
+      "train_time_sec": 1.323641061782837,
+      "inference_time_ms": 0.002205371856689453
+    },
+    {
+      "name": "Random Forest",
+      "test_accuracy": 0.9805555555555555,
+      "cv_accuracy_mean": 0.9721568912117693,
+      "cv_accuracy_std": 0.005857921487481059,
+      "train_time_sec": 0.434345006942749,
+      "inference_time_ms": 0.043931934568617076
+    },
+    {
+      "name": "k-Nearest Neighbors",
+      "test_accuracy": 0.9861111111111112,
+      "cv_accuracy_mean": 0.9846907665505226,
+      "cv_accuracy_std": 0.0056533779591923265,
+      "train_time_sec": 0.0007603168487548828,
+      "inference_time_ms": 0.20158025953504777
+    },
+    {
+      "name": "Decision Tree",
+      "test_accuracy": 0.8611111111111112,
+      "cv_accuracy_mean": 0.8489789005032907,
+      "cv_accuracy_std": 0.015155071125534304,
+      "train_time_sec": 0.014745235443115234,
+      "inference_time_ms": 0.0008351273006863064
+    }
+  ]
+}
